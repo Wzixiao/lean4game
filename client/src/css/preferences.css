@@ -1,0 +1,16 @@
+.preferences-category > .preferences-item{
+    margin-top: 12px;
+    margin-left: 24px;
+}
+
+.preferences-item.narrow{
+    width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+    .preferences-item.narrow{
+        width: auto;
+        margin-left: 12px;
+    }
+  }
+  
